@@ -23,3 +23,12 @@ replacements:
         - '*.cmake'
       regex_re: '([^;\s"]+/sysroot)'
       replacement_re: '$ENV{CONDA_BUILD_SYSROOT}'
+
+channel_sources:
+  - ramonaoptics,conda-forge
+channel_targets:
+  - ramonaoptics main
+channels:
+  targets:
+  -
+    - ramonaoptics
