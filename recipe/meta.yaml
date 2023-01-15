@@ -67,6 +67,7 @@ requirements:
     - {{ cdt('libdrm-devel') }}          # [linux]
     - {{ cdt('libglvnd-glx') }}          # [linux]
     - {{ cdt('libglvnd-egl') }}          # [linux]
+
     # For fontconfig + freetype
     - pkg-config                         # [unix]
     - make                               # [unix]
