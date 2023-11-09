@@ -11,9 +11,9 @@ cdt_arch:
 cdt_name:
 - cos7
 channel_sources:
-- conda-forge
+- ramonaoptics,conda-forge
 channel_targets:
-- conda-forge main
+- ramonaoptics main
 cxx_compiler:
 - gxx
 cxx_compiler_version:
